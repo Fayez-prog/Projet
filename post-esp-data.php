@@ -1,12 +1,12 @@
 <?php
-$servername = "localhost";
+$servername = "remotemysql.com";
 
 // REPLACE with your Database name
-$dbname = "esp";
+$dbname = "A28E1pBk8g";
 // REPLACE with Database user
-$username = "root";
+$username = "A28E1pBk8g";
 // REPLACE with Database user password
-$password = "";
+$password = "dq27AU2Mfe";
 
 // Keep this API Key value to be compatible with the ESP32 code provided in the project page. 
 // If you change this value, the ESP32 sketch needs to match
