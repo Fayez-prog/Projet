@@ -32,7 +32,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         } 
         
         $sql = "INSERT INTO resultat (courant_bat, courant_pv, courant_ph,tension_bat,tension_pv,tension_ph,date,time)
-        VALUES ('" . $value1 . "', '" . $value2 . "', '" . $value3 . "', '" . $value4 . "', '" . $value5 . "', '" . $value6 . "',  CURDATE() ,CONVERT_TZ(CURTIME(),'+00:00','+01:00'))";
+        VALUES ('" . $value1 . "', '" . $value2 . "', '" . $value3 . "', '" . $value4 . "', '" . $value5 . "', '" . $value6 . "',  CURDATE() ,CURTIME())";
         
         if ($conn->query($sql) === TRUE) {
             echo "New record created successfully";
